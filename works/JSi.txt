@@ -1,0 +1,39 @@
+﻿学习计划：
+1.seajs   http://seajs.org/docs/ ** https://github.com/seajs/seajs/tags
+2.node.js
+ http://cnodejs.org/ **http://www.nodebeginner.org/index-zh-cn.html
+http://www.nodebeginner.org/index-zh-cn.html
+
+3. kissy.js  kissy_pei 开发组件
+http://docs.kissyui.com/docs/html/tutorials/workflow/dev-spec.html
+
+https://github.com/kissyteam/kissy/blob/master/docs/release-note/1.2.0.md
+
+常见的问题有 1）浏览器性能问题 解决方案： 延迟渲染、动态加载、按需执行、对象缓存、算法优化 
+2）长度限制问题 解决方案： 分批请求、严格控制cookie、Flash，本地存储 
+3）兼容问题 解决方案： kissy、渐进增强，平稳退化 
+4）同源策略问题 解决方案： Jsonp、服务端代理、p3p 
+5）带宽资源问题 解决方案： 延迟（按需）加载、预加载 
+6）并发数问题 解决方案： Cdn combo、Css sprites、控制请求的先后次序
+7）系统依赖问题 解决方案： 异步加载
+
+
+
+HTTP:一切内容通过HTTP请求获得
+HTML:浏览器把HTML解析成DOM树
+CSS:定义HTML的布局和样式
+JavaScript:提供计算能力,处理交互事件
+Cookie:网页间,请求间会话保持(JS可以操作Cookie)
+DHTML:JavaScript操作Dom树(包括CSS)
+AJAX:JavaScript操纵HTTP
+
+
+Cookie容量小,每次随Http发送,是否通过JS在客户端存储更多数据? – LocalStorage
+JS单线程,能否让JS进行大量计算的时候,页面不再挂起? – WebWorkers
+JS语言过于随意,依赖繁杂,如何组织代码能方便共享智慧? – CommonJS Modules
+Http无状态短连接,能否让客户端更及时收到服务端消息? – 各种Comet
+Http头较大无法压缩,无法一个请求返回多个数据对象,怎么办? – 使用SPDY协议
+
+解决问题付出什么代价?是否涵盖了所有常用浏览器,如果不能是否做到了渐进增强?我们要不要这样做?这些是做一名合格的前端,做一名对技术架构有影响力的前端,必然面对的问题.
+
+前端技术体系,看起来题目很大,但其实并没有玄之又玄的东西在里边,所以即便我写的算不得优秀,但是说清楚还是可以的.我在面试高级前端的时候其实很在意前端大局观,不然叫我如何放心的把一个将会持续发展的产品交到他手里.
